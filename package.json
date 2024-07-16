@@ -131,7 +131,7 @@
 		"q": "^1.4.1",
 		"rech-ts-commons": "^1.0.3",
 		"ts-node": "^10.9.1",
-		"vscode-languageclient": "^8.0.2",
+		"vscode-languageclient": "^9.0.1",
 		"vscode-languageserver": "^9.0.1",
 		"vscode-languageserver-textdocument": "^1.0.7"
 	},
