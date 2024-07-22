@@ -147,7 +147,7 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-import": "^2.26.0",
 		"mocha": "^10.1.0",
-		"typescript": "^4.9.3"
+		"typescript": "^5.5.3"
 	},
 	"__metadata": {
 		"id": "55c51b52-73f6-4664-a02d-fb57088919cc",
