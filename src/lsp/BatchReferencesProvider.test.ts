@@ -4,6 +4,7 @@ import { describe, it } from "mocha";
 //    BatchElementPosition,
 //} from "../../lsp/BatchReferencesProvider";
 import { expect } from "chai";
+//import { BatchDeclarationFinder } from "./BatchDeclarationFinder";
 
 describe("Simple echo test", function () {
     it("Simple echo test", function () {
