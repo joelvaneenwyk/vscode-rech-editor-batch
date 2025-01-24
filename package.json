@@ -24,7 +24,7 @@
 		"compile:client": "tsc -p ./",
 		"compile:server": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
-		"test": "npm run compile && mocha -r ts-node/register ./src/test/**/*.test.ts",
+		"test": "npm run compile:client && mocha -r ts-node/register ./src/test/**/*.test.ts",
 		"lint": "eslint ./src"
 	},
 	"__metadata": {
