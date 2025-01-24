@@ -17,7 +17,8 @@ const compat = new FlatCompat({
 });
 
 export default [{
-    ignores: ["**/.eslintrc.js"],
+    files: ["**/*.ts", "**/*.mts", "**/*.cts", "**/*.js", "**/*.mjs", "**/*.cjs"],
+    ignores: ["**/eslint.config.mjs"],
 }, ...compat.extends("prettier"), {
     plugins: {
         import: fixupPluginRules(_import),
