@@ -99,8 +99,18 @@
 					"type": "string",
 					"description": "Controls the value of the initial tab size.",
 					"default": "4",
-					"enum": ["off", "1", "2", "3", "4", "5", "6", "7", "8"]
-        },
+					"enum": [
+						"off",
+						"1",
+						"2",
+						"3",
+						"4",
+						"5",
+						"6",
+						"7",
+						"8"
+					]
+				},
 				"rech.batch.snippetsType": {
 					"type": "string",
 					"default": "Community",
@@ -153,5 +163,6 @@
 		"id": "55c51b52-73f6-4664-a02d-fb57088919cc",
 		"publisherDisplayName": "rechinformatica",
 		"publisherId": "bca70ba0-6bb8-40cf-9663-39e27de4febf"
-	}
+	},
+	"packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }
