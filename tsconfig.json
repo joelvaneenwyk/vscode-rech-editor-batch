@@ -2,6 +2,7 @@
     "compilerOptions": {
       /* Basic Options */
       "target": "es6",
+      "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
       "module": "commonjs",
       "lib": [
         "es6"
