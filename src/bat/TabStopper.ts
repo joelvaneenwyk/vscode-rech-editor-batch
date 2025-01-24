@@ -41,7 +41,6 @@ export class TabStopper {
      * @param inserting boolean indicating whether the editor is inserting or removing a tab
      */
     private executeTab(editor: TextEditor, doc: TextDocument, sel: readonly Selection[], inserting: boolean) {
-        // eslint-disable-next-line @typescript-eslint/no-floating-promises
         editor.edit(edit => {
             for (var x = 0; x < sel.length; x++) {
                 if (sel[x].start.line === sel[x].end.line) {
@@ -211,4 +210,3 @@ export class TabStopper {
     }
 
 }
-
