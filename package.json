@@ -140,11 +140,7 @@
 		}
 	},
 	"dependencies": {
-		"@types/chai": "5.0.1",
-		"@types/q": "^1.5.8",
-		"chai": "5.1.2",
 		"iconv-lite": "^0.6.3",
-		"q": "^1.5.1",
 		"rech-ts-commons": "^1.0.3",
 		"ts-node": "^10.9.2",
 		"vscode-languageclient": "^9.0.1",
@@ -152,6 +148,8 @@
 		"vscode-languageserver-textdocument": "^1.0.12"
 	},
 	"devDependencies": {
+		"chai": "5.1.2",
+		"@types/chai": "5.0.1",
 		"@eslint/compat": "^1",
 		"@eslint/eslintrc": "^3",
 		"@eslint/js": "^9",
