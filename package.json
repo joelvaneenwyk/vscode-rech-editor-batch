@@ -17,6 +17,22 @@
 		"type": "git",
 		"url": "https://github.com/RechInformatica/rech-editor-batch.git"
 	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"package": "vsce package --out rech-editor-batch.vsix",
+		"compile": "npm run lint && tsc -p ./",
+		"compile:client": "tsc -p ./",
+		"compile:server": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"test": "npm run compile && mocha -r ts-node/register ./src/test/**/*.test.ts",
+		"lint": "eslint ./src"
+	},
+	"__metadata": {
+		"id": "55c51b52-73f6-4664-a02d-fb57088919cc",
+		"publisherDisplayName": "rechinformatica",
+		"publisherId": "bca70ba0-6bb8-40cf-9663-39e27de4febf"
+	},
+	"packageManager": "npm@11.0.0+sha512.11dff29565d2297c74e7c594a9762581bde969f0aa5cbe6f5b3644bf008a16c065ece61094d9ffbb81125be38df8e1ba43eb8244b3d30c61eb797e9a2440e3ec",
 	"categories": [
 		"Programming Languages",
 		"Snippets",
@@ -123,17 +139,6 @@
 			}
 		}
 	},
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"package": "vsce package --out rech-editor-batch.vsix",
-		"compile": "npm run lint && tsc -p ./",
-		"compile:client": "tsc -p ./",
-		"compile:server": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"test": "npm run compile && mocha -r ts-node/register ./src/test/**/*.test.ts",
-		"lint": "eslint ./src"
-	},
-	"packageManager": "npm@11.0.0+sha512.11dff29565d2297c74e7c594a9762581bde969f0aa5cbe6f5b3644bf008a16c065ece61094d9ffbb81125be38df8e1ba43eb8244b3d30c61eb797e9a2440e3ec",
 	"dependencies": {
 		"@types/chai": "5.0.1",
 		"@types/q": "^1.5.8",
@@ -163,10 +168,5 @@
 		"globals": "^15.14.0",
 		"mocha": "^11.1.0",
 		"typescript": "^5.7.3"
-	},
-	"__metadata": {
-		"id": "55c51b52-73f6-4664-a02d-fb57088919cc",
-		"publisherDisplayName": "rechinformatica",
-		"publisherId": "bca70ba0-6bb8-40cf-9663-39e27de4febf"
 	}
 }
