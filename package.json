@@ -5,7 +5,7 @@
 	"version": "0.0.22",
 	"publisher": "rechinformatica",
 	"engines": {
-		"vscode": "^1.73.1"
+		"vscode": "^1.96.0"
 	},
 	"icon": "images/batch.png",
 	"license": "SEE LICENSE IN LICENSE.txt",
@@ -133,18 +133,18 @@
 		"test": "npm run compile && mocha -r ts-node/register ./src/test/**/*.test.ts",
 		"lint": "eslint ./src"
 	},
-	"packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+	"packageManager": "npm@11.0.0+sha512.11dff29565d2297c74e7c594a9762581bde969f0aa5cbe6f5b3644bf008a16c065ece61094d9ffbb81125be38df8e1ba43eb8244b3d30c61eb797e9a2440e3ec",
 	"dependencies": {
-		"@types/chai": "4.1.6",
-		"@types/q": "^1.0.0",
-		"chai": "5.1.1",
+		"@types/chai": "5.0.1",
+		"@types/q": "^1.5.8",
+		"chai": "5.1.2",
 		"iconv-lite": "^0.6.3",
-		"q": "^1.4.1",
+		"q": "^1.5.1",
 		"rech-ts-commons": "^1.0.3",
-		"ts-node": "^10.9.1",
+		"ts-node": "^10.9.2",
 		"vscode-languageclient": "^9.0.1",
 		"vscode-languageserver": "^9.0.1",
-		"vscode-languageserver-textdocument": "^1.0.7"
+		"vscode-languageserver-textdocument": "^1.0.12"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1",
@@ -152,17 +152,17 @@
 		"@eslint/js": "^9",
 		"@types/mocha": "^10",
 		"@types/node": "^22",
-		"@types/vscode": "^1.73.1",
+		"@types/vscode": "^1.96.0",
 		"@typescript-eslint/eslint-plugin": "^8.21.0",
 		"@typescript-eslint/parser": "^8.21.0",
-		"@vscode/test-electron": "^2.2.0",
-		"@vscode/vsce": "^2.15.0",
+		"@vscode/test-electron": "^2.4.1",
+		"@vscode/vsce": "^3.2.1",
 		"eslint": "^9",
 		"eslint-config-prettier": "^10",
 		"eslint-plugin-import": "^2",
 		"globals": "^15.14.0",
-		"mocha": "^10.1.0",
-		"typescript": "^5.6.3"
+		"mocha": "^11.1.0",
+		"typescript": "^5.7.3"
 	},
 	"__metadata": {
 		"id": "55c51b52-73f6-4664-a02d-fb57088919cc",
