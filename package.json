@@ -133,6 +133,7 @@
 		"test": "npm run compile && mocha -r ts-node/register ./src/test/**/*.test.ts",
 		"lint": "eslint -c .eslintrc.js --ext .ts ./src"
 	},
+	"packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
 	"dependencies": {
 		"@types/chai": "4.1.6",
 		"@types/q": "^1.0.0",
@@ -146,6 +147,9 @@
 		"vscode-languageserver-textdocument": "^1.0.7"
 	},
 	"devDependencies": {
+		"@eslint/compat": "^1.2.5",
+		"@eslint/eslintrc": "^3.2.0",
+		"@eslint/js": "^9.19.0",
 		"@types/mocha": "^10.0.9",
 		"@types/node": "^20.14.10",
 		"@types/vscode": "^1.73.1",
@@ -153,9 +157,10 @@
 		"@typescript-eslint/parser": "^5.45.0",
 		"@vscode/test-electron": "^2.2.0",
 		"@vscode/vsce": "^2.15.0",
-		"eslint": "^9.7.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-import": "^2.26.0",
+		"eslint": "^9.19.0",
+		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-import": "^2.31.0",
+		"globals": "^15.14.0",
 		"mocha": "^10.1.0",
 		"typescript": "^5.6.3"
 	},
@@ -163,6 +168,5 @@
 		"id": "55c51b52-73f6-4664-a02d-fb57088919cc",
 		"publisherDisplayName": "rechinformatica",
 		"publisherId": "bca70ba0-6bb8-40cf-9663-39e27de4febf"
-	},
-	"packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+	}
 }
